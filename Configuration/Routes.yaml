@@ -1,0 +1,45 @@
+
+-
+  name: HarvesSubroutes
+  uriPattern: '<HarvesSubroutes>'
+  defaults:
+    '@format': html
+  subRoutes:
+    HarvesSubroutes:
+      package: Famelo.Harvest
+
+-
+  name: Saas
+  uriPattern: '<SaasSubroutes>'
+  defaults:
+    '@format': html
+  subRoutes:
+    SaasSubroutes:
+      package: Famelo.Saas
+
+-
+  name: OAuth
+  uriPattern: '<OAuthSubroutes>'
+  defaults:
+    '@format': html
+  subRoutes:
+    OAuthSubroutes:
+      package: Famelo.Oauth
+
+-
+  name: ExposeSubroutes
+  uriPattern: '<ExposeSubroutes>'
+  defaults:
+    '@format': html
+  subRoutes:
+    ExposeSubroutes:
+      package: Flowpack.Expose
+
+-
+  name: Flow
+  uriPattern: '<FlowSubroutes>'
+  defaults:
+    '@format': html
+  subRoutes:
+    FlowSubroutes:
+      package: TYPO3.Flow
