@@ -1037,12 +1037,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Flowpack.Expose.git",
-                "reference": "df2eff98a1db7305cc535451c61a1afdd35bd26f"
+                "reference": "5c2251bbe34bf8418e3fb0ca962c03f9d7ba46b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Flowpack.Expose/zipball/df2eff98a1db7305cc535451c61a1afdd35bd26f",
-                "reference": "df2eff98a1db7305cc535451c61a1afdd35bd26f",
+                "url": "https://api.github.com/repos/mneuhaus/Flowpack.Expose/zipball/5c2251bbe34bf8418e3fb0ca962c03f9d7ba46b2",
+                "reference": "5c2251bbe34bf8418e3fb0ca962c03f9d7ba46b2",
                 "shasum": ""
             },
             "require": {
@@ -1062,7 +1062,7 @@
                 "source": "https://github.com/mneuhaus/Flowpack.Expose/tree/kiss",
                 "issues": "https://github.com/mneuhaus/Flowpack.Expose/issues"
             },
-            "time": "2014-08-13 08:36:53"
+            "time": "2014-08-20 09:40:11"
         },
         {
             "name": "fzaninotto/faker",
