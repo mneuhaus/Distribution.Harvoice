@@ -57,12 +57,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "41cf781ed1271e25bf31b715416a349996aa2527"
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/41cf781ed1271e25bf31b715416a349996aa2527",
-                "reference": "41cf781ed1271e25bf31b715416a349996aa2527",
+                "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
                 "shasum": ""
             },
             "replace": {
@@ -139,7 +139,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-07-22 17:04:15"
+            "time": "2014-08-18 20:00:12"
         },
         {
             "name": "davidbadura/fixtures",
@@ -286,12 +286,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "8f8810a67de1e45e1f471c5a93dbd829c4184975"
+                "reference": "72121e68265cd8b37f9b69778308251f6c5133e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/8f8810a67de1e45e1f471c5a93dbd829c4184975",
-                "reference": "8f8810a67de1e45e1f471c5a93dbd829c4184975",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/72121e68265cd8b37f9b69778308251f6c5133e4",
+                "reference": "72121e68265cd8b37f9b69778308251f6c5133e4",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2014-07-27 17:14:15"
+            "time": "2014-08-05 12:51:19"
         },
         {
             "name": "doctrine/collections",
@@ -692,12 +692,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "4256449c5e2603a6b6ee5a78c7c4521d4d4430b8"
+                "reference": "1a9dffa64e33fdc10f4b4c3f5d7230b74d4a1021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/4256449c5e2603a6b6ee5a78c7c4521d4d4430b8",
-                "reference": "4256449c5e2603a6b6ee5a78c7c4521d4d4430b8",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/1a9dffa64e33fdc10f4b4c3f5d7230b74d4a1021",
+                "reference": "1a9dffa64e33fdc10f4b4c3f5d7230b74d4a1021",
                 "shasum": ""
             },
             "require": {
@@ -728,14 +728,12 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
                     "name": "Benjamin Eberlei",
                     "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
                 }
             ],
             "description": "Database Schema migrations using Doctrine DBAL",
@@ -744,7 +742,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2014-07-09 07:58:02"
+            "time": "2014-08-18 18:03:07"
         },
         {
             "name": "doctrine/orm",
@@ -853,16 +851,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Common.git",
-                "reference": "c5f5b85167cdaafb9d43e306592f41fb881fc647"
+                "reference": "d55416d4b0828f889cdb166a8bc9f2d9b727fb4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/c5f5b85167cdaafb9d43e306592f41fb881fc647",
-                "reference": "c5f5b85167cdaafb9d43e306592f41fb881fc647",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/d55416d4b0828f889cdb166a8bc9f2d9b727fb4f",
+                "reference": "d55416d4b0828f889cdb166a8bc9f2d9b727fb4f",
                 "shasum": ""
             },
             "require": {
                 "davidbadura/fixtures": "*",
+                "fzaninotto/faker": "*",
                 "typo3/flow": "*"
             },
             "type": "typo3-flow-package",
@@ -872,7 +871,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-07-02 23:07:26"
+            "time": "2014-08-15 07:54:59"
         },
         {
             "name": "famelo/harvest",
@@ -880,12 +879,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Harvest.git",
-                "reference": "436e31cd9e4ad7bc2e105d6466f558d77c465bdc"
+                "reference": "3a45e7bca6db9fbfea407e22fb24b2dc9a337ec3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/436e31cd9e4ad7bc2e105d6466f558d77c465bdc",
-                "reference": "436e31cd9e4ad7bc2e105d6466f558d77c465bdc",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/3a45e7bca6db9fbfea407e22fb24b2dc9a337ec3",
+                "reference": "3a45e7bca6db9fbfea407e22fb24b2dc9a337ec3",
                 "shasum": ""
             },
             "require": {
@@ -900,7 +899,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-08-05 08:57:32"
+            "time": "2014-08-20 07:57:36"
         },
         {
             "name": "famelo/messaging",
@@ -908,12 +907,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "21bdefd39ca91fe54f8e1af00cf06c67c913ff57"
+                "reference": "a3bff3e150f5d65acec09e34e6935cfc30eadff4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/21bdefd39ca91fe54f8e1af00cf06c67c913ff57",
-                "reference": "21bdefd39ca91fe54f8e1af00cf06c67c913ff57",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/a3bff3e150f5d65acec09e34e6935cfc30eadff4",
+                "reference": "a3bff3e150f5d65acec09e34e6935cfc30eadff4",
                 "shasum": ""
             },
             "require": {
@@ -930,14 +929,12 @@
             "authors": [
                 {
                     "name": "Marc Neuhaus",
-                    "email": "apocalip@gmail.com",
-                    "homepage": "http://famelo.de/",
-                    "role": "Developer"
+                    "email": "apocalip@gmail.com"
                 }
             ],
             "description": "Little helper to send Messages with SwiftMailer rendered through Fluid.",
             "homepage": "https://github.com/mneuhaus/Famelo.Messaging",
-            "time": "2014-04-15 09:06:27"
+            "time": "2014-08-14 15:43:24"
         },
         {
             "name": "famelo/oauth",
@@ -945,12 +942,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.OAuth.git",
-                "reference": "a22af03532b6adfd1ac3706cee0ab7cf3191de54"
+                "reference": "1c9e63f3234e7ef33c591c30d6c6f57a5345a643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.OAuth/zipball/a22af03532b6adfd1ac3706cee0ab7cf3191de54",
-                "reference": "a22af03532b6adfd1ac3706cee0ab7cf3191de54",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.OAuth/zipball/1c9e63f3234e7ef33c591c30d6c6f57a5345a643",
+                "reference": "1c9e63f3234e7ef33c591c30d6c6f57a5345a643",
                 "shasum": ""
             },
             "require": {
@@ -967,7 +964,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-08-05 09:14:33"
+            "time": "2014-08-20 07:58:11"
         },
         {
             "name": "famelo/pdf",
@@ -1004,12 +1001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "2e818bd2d40984964920865736b7dcca5676d9d7"
+                "reference": "23087f66837e424d116556a6cb744220262f4eb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/2e818bd2d40984964920865736b7dcca5676d9d7",
-                "reference": "2e818bd2d40984964920865736b7dcca5676d9d7",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/23087f66837e424d116556a6cb744220262f4eb2",
+                "reference": "23087f66837e424d116556a6cb744220262f4eb2",
                 "shasum": ""
             },
             "require": {
@@ -1032,7 +1029,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Helpers to create a TYPO3 Flow based SAAS App",
-            "time": "2014-08-05 09:28:20"
+            "time": "2014-08-20 09:11:51"
         },
         {
             "name": "flowpack/expose",
@@ -1040,12 +1037,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Flowpack.Expose.git",
-                "reference": "b636b27557648b54701a6d5c3d5c47b1fbe0400f"
+                "reference": "df2eff98a1db7305cc535451c61a1afdd35bd26f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Flowpack.Expose/zipball/b636b27557648b54701a6d5c3d5c47b1fbe0400f",
-                "reference": "b636b27557648b54701a6d5c3d5c47b1fbe0400f",
+                "url": "https://api.github.com/repos/mneuhaus/Flowpack.Expose/zipball/df2eff98a1db7305cc535451c61a1afdd35bd26f",
+                "reference": "df2eff98a1db7305cc535451c61a1afdd35bd26f",
                 "shasum": ""
             },
             "require": {
@@ -1065,7 +1062,57 @@
                 "source": "https://github.com/mneuhaus/Flowpack.Expose/tree/kiss",
                 "issues": "https://github.com/mneuhaus/Flowpack.Expose/issues"
             },
-            "time": "2014-08-05 08:49:05"
+            "time": "2014-08-13 08:36:53"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "d46b8f55dd8cffec8655a844c22f4e5d08ff8d89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d46b8f55dd8cffec8655a844c22f4e5d08ff8d89",
+                "reference": "d46b8f55dd8cffec8655a844c22f4e5d08ff8d89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Faker": "src/",
+                    "Faker\\PHPUnit": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2014-08-19 08:06:48"
         },
         {
             "name": "guzzle/common",
@@ -1074,12 +1121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/common.git",
-                "reference": "707428cd8a99486418a66c859777b56194d67d6c"
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/common/zipball/707428cd8a99486418a66c859777b56194d67d6c",
-                "reference": "707428cd8a99486418a66c859777b56194d67d6c",
+                "url": "https://api.github.com/repos/guzzle/common/zipball/2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
                 "shasum": ""
             },
             "require": {
@@ -1109,7 +1156,7 @@
                 "event",
                 "exception"
             ],
-            "time": "2014-05-07 17:04:22"
+            "time": "2014-08-11 04:32:36"
         },
         {
             "name": "guzzle/http",
@@ -1118,12 +1165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/http.git",
-                "reference": "222c4e7bccb945c612283d1dd81762f2a20a4efc"
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/http/zipball/222c4e7bccb945c612283d1dd81762f2a20a4efc",
-                "reference": "222c4e7bccb945c612283d1dd81762f2a20a4efc",
+                "url": "https://api.github.com/repos/guzzle/http/zipball/1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
                 "shasum": ""
             },
             "require": {
@@ -1166,7 +1213,7 @@
                 "http",
                 "http client"
             ],
-            "time": "2014-05-01 21:56:28"
+            "time": "2014-08-11 04:32:36"
         },
         {
             "name": "guzzle/parser",
@@ -1339,26 +1386,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/snappy.git",
-                "reference": "9e0510d87babb33612cbf9d76a3b360048e0418d"
+                "reference": "6808b99d583e860c5c2169db8f614b2003392406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/9e0510d87babb33612cbf9d76a3b360048e0418d",
-                "reference": "9e0510d87babb33612cbf9d76a3b360048e0418d",
+                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/6808b99d583e860c5c2169db8f614b2003392406",
+                "reference": "6808b99d583e860c5c2169db8f614b2003392406",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "symfony/process": "~2.1"
             },
             "suggest": {
                 "h4cc/wkhtmltopdf-amd64": "Provide wkhtmltopdf-amd64 binary, use version `0.12.0` as dependency",
-                "h4cc/wkhtmltopdf-i386": "Provide wkhtmltopdf-i386 binary, use version `0.12.0` as dependency",
-                "symfony/process": "Process Component of Symfony2."
+                "h4cc/wkhtmltopdf-i386": "Provide wkhtmltopdf-i386 binary, use version `0.12.0` as dependency"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.1.x-dev"
+                    "dev-master": "0.2.x-dev"
                 }
             },
             "autoload": {
@@ -1390,7 +1437,7 @@
                 "thumbnail",
                 "wkhtmltopdf"
             ],
-            "time": "2014-07-28 15:43:39"
+            "time": "2014-08-13 12:53:10"
         },
         {
             "name": "lusitanian/oauth",
@@ -1726,12 +1773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "50f77fb648d248bb921321e6fcb43e0a1a9376cc"
+                "reference": "919345e2757aa3d3aca1d1ce5a8f53f65d1990ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/50f77fb648d248bb921321e6fcb43e0a1a9376cc",
-                "reference": "50f77fb648d248bb921321e6fcb43e0a1a9376cc",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/919345e2757aa3d3aca1d1ce5a8f53f65d1990ef",
+                "reference": "919345e2757aa3d3aca1d1ce5a8f53f65d1990ef",
                 "shasum": ""
             },
             "require": {
@@ -1774,7 +1821,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-08-05 09:07:51"
+            "time": "2014-08-14 16:37:29"
         },
         {
             "name": "symfony/dom-crawler",
@@ -1895,12 +1942,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "3329a4cb19075326ef2cc2abe848aa21b84905cf"
+                "reference": "f6ba24717b0f3a63d447a3c4c80ba7d0ddb42050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/3329a4cb19075326ef2cc2abe848aa21b84905cf",
-                "reference": "3329a4cb19075326ef2cc2abe848aa21b84905cf",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/f6ba24717b0f3a63d447a3c4c80ba7d0ddb42050",
+                "reference": "f6ba24717b0f3a63d447a3c4c80ba7d0ddb42050",
                 "shasum": ""
             },
             "require": {
@@ -1933,7 +1980,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-28 13:20:53"
+            "time": "2014-08-14 16:37:29"
         },
         {
             "name": "symfony/http-foundation",
@@ -1991,6 +2038,53 @@
             "time": "2014-05-26 19:02:51"
         },
         {
+            "name": "symfony/process",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "ba2c477082cf505c1721ea6e68010bb1fcfaef8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/ba2c477082cf505c1721ea6e68010bb1fcfaef8b",
+                "reference": "ba2c477082cf505c1721ea6e68010bb1fcfaef8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-08-14 16:37:29"
+        },
+        {
             "name": "symfony/yaml",
             "version": "2.1.x-dev",
             "target-dir": "Symfony/Component/Yaml",
@@ -2040,7 +2134,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Eel.git",
-                "reference": "f44e6fdc2ef423c316656ab05c2f0729f5bb98ba"
+                "reference": "ece8d61f61638b91396231cb257c0f85e8aa5a34"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2056,7 +2150,7 @@
                 "LGPL-3.0+"
             ],
             "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
-            "time": "2014-06-27 05:46:56"
+            "time": "2014-08-20 08:33:06"
         },
         {
             "name": "typo3/flow",
@@ -2064,7 +2158,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "61d4daeeb29724aa98d4bd7abca7036e1924f824"
+                "reference": "82828c1515a272a392719d53ab1065aa0fb680c2"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2097,7 +2191,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-07-25 16:48:32"
+            "time": "2014-08-12 09:37:19"
         },
         {
             "name": "typo3/fluid",
@@ -2105,7 +2199,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Fluid.git",
-                "reference": "031f74283b709857d42fb015e065a67e42072b1e"
+                "reference": "454429a00669ccb6cf80e9ed8e7cd6a5df4b1a41"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2121,7 +2215,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
-            "time": "2014-07-25 09:37:21"
+            "time": "2014-08-11 09:04:27"
         },
         {
             "name": "typo3/party",
@@ -2181,12 +2275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Bean.git",
-                "reference": "172352446a958a5cab8c087ebba2ce87f8fae0b9"
+                "reference": "754a0e57eb78dad1b83dadaabe094ce728eb41e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bean/zipball/172352446a958a5cab8c087ebba2ce87f8fae0b9",
-                "reference": "172352446a958a5cab8c087ebba2ce87f8fae0b9",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bean/zipball/754a0e57eb78dad1b83dadaabe094ce728eb41e0",
+                "reference": "754a0e57eb78dad1b83dadaabe094ce728eb41e0",
                 "shasum": ""
             },
             "require": {
@@ -2204,7 +2298,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Code generation package for TYPO3.Flow",
-            "time": "2014-08-05 08:47:50"
+            "time": "2014-08-18 10:00:53"
         },
         {
             "name": "famelo/string-score",
@@ -2302,12 +2396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "22c76a3da442429e6af6140e3630bd85656ed85e"
+                "reference": "6d0589d14f540f7e6be0a7f91b2d73f45847cb71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/22c76a3da442429e6af6140e3630bd85656ed85e",
-                "reference": "22c76a3da442429e6af6140e3630bd85656ed85e",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/6d0589d14f540f7e6be0a7f91b2d73f45847cb71",
+                "reference": "6d0589d14f540f7e6be0a7f91b2d73f45847cb71",
                 "shasum": ""
             },
             "require": {
@@ -2339,7 +2433,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2014-07-23 19:35:24"
+            "time": "2014-08-11 20:04:52"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2541,12 +2635,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "a0802561692c3b2bb0ed972f7ffafbfab068e580"
+                "reference": "980a02b40496a25ce38acb4d3f4949b77abf9f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/a0802561692c3b2bb0ed972f7ffafbfab068e580",
-                "reference": "a0802561692c3b2bb0ed972f7ffafbfab068e580",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/980a02b40496a25ce38acb4d3f4949b77abf9f20",
+                "reference": "980a02b40496a25ce38acb4d3f4949b77abf9f20",
                 "shasum": ""
             },
             "require": {
@@ -2565,9 +2659,6 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2583,7 +2674,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2014-06-26 07:15:38"
+            "time": "2014-08-14 16:51:26"
         },
         {
             "name": "phpunit/phpunit",
