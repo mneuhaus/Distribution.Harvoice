@@ -27,6 +27,7 @@
         "famelo/oauth": "*",
         "famelo/pdf": "*",
         "famelo/saas": "*",
+        "fzaninotto/faker": "*",
         "flowpack/Expose": "dev-kiss",
         "lusitanian/oauth": "dev-master as 1.0.x-dev"
     },

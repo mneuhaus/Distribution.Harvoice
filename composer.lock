@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13c08efcd8843a457a91b2e49cfc058d",
+    "hash": "42481472ff3b9e4ce01460c1a4f72262",
     "packages": [
         {
             "name": "alecsammon/php-raml-parser",
