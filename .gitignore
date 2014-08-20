@@ -1,0 +1,15 @@
+bin
+Build/Behat
+Build/BuildEssentials
+Build/Reports
+Configuration/Development
+Configuration/Production
+Configuration/Settings.yaml.example
+Configuration/Testing
+Data
+flow
+flow.bat
+Readme.txt
+Upgrading.txt
+Web
+Packages
