@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "42481472ff3b9e4ce01460c1a4f72262",
+    "hash": "c158794b0a705d278868448b3df5a015",
     "packages": [
         {
             "name": "alecsammon/php-raml-parser",
@@ -1033,16 +1033,16 @@
         },
         {
             "name": "flowpack/expose",
-            "version": "dev-kiss",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Flowpack.Expose.git",
-                "reference": "5c2251bbe34bf8418e3fb0ca962c03f9d7ba46b2"
+                "reference": "eb35f91a8aefec243696ea3968e891b2ae3a4cf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Flowpack.Expose/zipball/5c2251bbe34bf8418e3fb0ca962c03f9d7ba46b2",
-                "reference": "5c2251bbe34bf8418e3fb0ca962c03f9d7ba46b2",
+                "url": "https://api.github.com/repos/mneuhaus/Flowpack.Expose/zipball/eb35f91a8aefec243696ea3968e891b2ae3a4cf5",
+                "reference": "eb35f91a8aefec243696ea3968e891b2ae3a4cf5",
                 "shasum": ""
             },
             "require": {
@@ -1059,10 +1059,10 @@
             ],
             "description": "Package to expose models",
             "support": {
-                "source": "https://github.com/mneuhaus/Flowpack.Expose/tree/kiss",
+                "source": "https://github.com/mneuhaus/Flowpack.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/Flowpack.Expose/issues"
             },
-            "time": "2014-08-20 09:40:11"
+            "time": "2014-08-20 12:00:11"
         },
         {
             "name": "fzaninotto/faker",
@@ -2340,12 +2340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Surf.SharedHosting.git",
-                "reference": "2ff70ca28bb1aa716f06eb89a85ba008cdeae6ba"
+                "reference": "ab65b7e2e2538f216f6fc29a242b973a85bf7372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Surf.SharedHosting/zipball/2ff70ca28bb1aa716f06eb89a85ba008cdeae6ba",
-                "reference": "2ff70ca28bb1aa716f06eb89a85ba008cdeae6ba",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Surf.SharedHosting/zipball/ab65b7e2e2538f216f6fc29a242b973a85bf7372",
+                "reference": "ab65b7e2e2538f216f6fc29a242b973a85bf7372",
                 "shasum": ""
             },
             "require": {
@@ -2358,7 +2358,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-05-12 13:49:02"
+            "time": "2014-08-20 11:51:23"
         },
         {
             "name": "mikey179/vfsStream",
@@ -2889,7 +2889,6 @@
     "stability-flags": {
         "typo3/eel": 20,
         "doctrine/migrations": 20,
-        "flowpack/expose": 20,
         "lusitanian/oauth": 20,
         "typo3/kickstart": 20,
         "typo3/buildessentials": 20

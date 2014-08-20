@@ -12,12 +12,12 @@
 return array (
   'packages' => 
   array (
-    'TYPO3.Fluid' => 
+    'TYPO3.Party' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/fluid',
+      'composerName' => 'typo3/party',
       'state' => 'active',
-      'packagePath' => 'Framework/TYPO3.Fluid/',
+      'packagePath' => 'Framework/TYPO3.Party/',
       'classesPath' => 'Classes/',
     ),
     'TYPO3.Eel' => 
@@ -140,12 +140,12 @@ return array (
       'packagePath' => 'Framework/TYPO3.Flow/',
       'classesPath' => 'Classes/',
     ),
-    'TYPO3.Party' => 
+    'TYPO3.Fluid' => 
     array (
       'manifestPath' => '',
-      'composerName' => 'typo3/party',
+      'composerName' => 'typo3/fluid',
       'state' => 'active',
-      'packagePath' => 'Framework/TYPO3.Party/',
+      'packagePath' => 'Framework/TYPO3.Fluid/',
       'classesPath' => 'Classes/',
     ),
     'symfony.eventdispatcher' => 
@@ -170,6 +170,14 @@ return array (
       'composerName' => 'davidbadura/fixtures',
       'state' => 'active',
       'packagePath' => 'Libraries/davidbadura/fixtures/',
+      'classesPath' => 'src/',
+    ),
+    'fzaninotto.faker' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'fzaninotto/faker',
+      'state' => 'active',
+      'packagePath' => 'Libraries/fzaninotto/faker/',
       'classesPath' => 'src/',
     ),
     'Famelo.Common' => 
@@ -219,6 +227,14 @@ return array (
       'state' => 'active',
       'packagePath' => 'Application/Famelo.Bootstrap/',
       'classesPath' => 'Classes/',
+    ),
+    'symfony.process' => 
+    array (
+      'manifestPath' => 'Symfony/Component/Process/',
+      'composerName' => 'symfony/process',
+      'state' => 'active',
+      'packagePath' => 'Libraries/symfony/process/',
+      'classesPath' => '',
     ),
     'knplabs.knpsnappy' => 
     array (
