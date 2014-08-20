@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c158794b0a705d278868448b3df5a015",
+    "hash": "a8c04f73d4ad3b60d5856092a8409270",
     "packages": [
         {
             "name": "alecsammon/php-raml-parser",
@@ -1070,12 +1070,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d46b8f55dd8cffec8655a844c22f4e5d08ff8d89"
+                "reference": "d082b5f239597672e150a0b226fae8059edb8a33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d46b8f55dd8cffec8655a844c22f4e5d08ff8d89",
-                "reference": "d46b8f55dd8cffec8655a844c22f4e5d08ff8d89",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d082b5f239597672e150a0b226fae8059edb8a33",
+                "reference": "d082b5f239597672e150a0b226fae8059edb8a33",
                 "shasum": ""
             },
             "require": {
@@ -1112,7 +1112,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2014-08-19 08:06:48"
+            "time": "2014-08-20 14:08:29"
         },
         {
             "name": "guzzle/common",
@@ -1444,13 +1444,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
-                "reference": "2d0da3dcb4210d1400bb0abd7f3497448cf55ccb"
+                "url": "https://github.com/mneuhaus/PHPoAuthLib.git",
+                "reference": "2dafb0a4ecc523f7ad72bf284f67fdc2e1885c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/2d0da3dcb4210d1400bb0abd7f3497448cf55ccb",
-                "reference": "2d0da3dcb4210d1400bb0abd7f3497448cf55ccb",
+                "url": "https://api.github.com/repos/mneuhaus/PHPoAuthLib/zipball/2dafb0a4ecc523f7ad72bf284f67fdc2e1885c82",
+                "reference": "2dafb0a4ecc523f7ad72bf284f67fdc2e1885c82",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1478,6 @@
                     "OAuth\\Unit": "tests"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1489,19 +1488,20 @@
                 },
                 {
                     "name": "Pieter Hordijk",
-                    "email": "info@pieterhordijk.com",
-                    "homepage": "https://pieterhordijk.com",
-                    "role": "developer"
+                    "email": "info@pieterhordijk.com"
                 }
             ],
             "description": "PHP 5.3+ oAuth 1/2 Library",
             "keywords": [
-                "Authentication",
+                "authentication",
                 "authorization",
                 "oauth",
                 "security"
             ],
-            "time": "2014-05-14 19:07:24"
+            "support": {
+                "source": "https://github.com/mneuhaus/PHPoAuthLib/tree/master"
+            },
+            "time": "2014-08-19 21:19:14"
         },
         {
             "name": "omnipay/common",
@@ -1663,13 +1663,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Oryzone/PHPoAuthUserData.git",
-                "reference": "1be3d5457ecf6c93ccc730fe1e981776f4759291"
+                "url": "https://github.com/mneuhaus/PHPoAuthUserData.git",
+                "reference": "ea99bdb315957b5dbc64c10f3f39efbaeb1475cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Oryzone/PHPoAuthUserData/zipball/1be3d5457ecf6c93ccc730fe1e981776f4759291",
-                "reference": "1be3d5457ecf6c93ccc730fe1e981776f4759291",
+                "url": "https://api.github.com/repos/mneuhaus/PHPoAuthUserData/zipball/ea99bdb315957b5dbc64c10f3f39efbaeb1475cb",
+                "reference": "ea99bdb315957b5dbc64c10f3f39efbaeb1475cb",
                 "shasum": ""
             },
             "require": {
@@ -1691,7 +1691,6 @@
                     "OAuth\\UserData\\Unit\\": "tests/OAuth/Unit/UserData/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1706,14 +1705,17 @@
             "description": "Extension library for Lusitanian/PHPoAuthLib to extract user profile data from various oAuth providers",
             "homepage": "https://github.com/Oryzone/PHPoAuthUserData",
             "keywords": [
-                "Authentication",
+                "authentication",
                 "authorization",
                 "oauth",
                 "profile",
                 "security",
                 "user"
             ],
-            "time": "2014-02-13 08:31:01"
+            "support": {
+                "source": "https://github.com/mneuhaus/PHPoAuthUserData/tree/master"
+            },
+            "time": "2014-07-26 15:40:13"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2893,6 +2895,7 @@
         "typo3/kickstart": 20,
         "typo3/buildessentials": 20
     },
+    "prefer-stable": false,
     "platform": [
 
     ],

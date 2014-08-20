@@ -14,6 +14,14 @@
         {
             "type": "vcs",
             "url": "git@github.com:mneuhaus/php-raml-parser.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:mneuhaus/PHPoAuthLib.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:mneuhaus/PHPoAuthUserData.git"
         }
     ],
     "require": {
