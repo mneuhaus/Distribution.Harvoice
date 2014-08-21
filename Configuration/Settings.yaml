@@ -9,10 +9,6 @@
 #                                                                        #
 
 Famelo:
-  PDF:
-    DefaultGenerator: '\Famelo\PDF\Generator\WebkitGenerator'
-    DefaultGeneratorOptions:
-      Binary: '/usr/local/bin/wkhtmltopdf'
 
   Oauth:
     UserAgent: Famelo.Harvest

@@ -972,12 +972,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.PDF.git",
-                "reference": "242d6b9f5c7ef7c8ce9b4e3ae6fb831ea29444fa"
+                "reference": "e614c42d9e4122e7199ab097f1f79d012d26b8bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/242d6b9f5c7ef7c8ce9b4e3ae6fb831ea29444fa",
-                "reference": "242d6b9f5c7ef7c8ce9b4e3ae6fb831ea29444fa",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/e614c42d9e4122e7199ab097f1f79d012d26b8bd",
+                "reference": "e614c42d9e4122e7199ab097f1f79d012d26b8bd",
                 "shasum": ""
             },
             "require": {
@@ -993,7 +993,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-07-29 22:17:27"
+            "time": "2014-08-21 07:46:52"
         },
         {
             "name": "famelo/saas",
