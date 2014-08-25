@@ -879,12 +879,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Harvest.git",
-                "reference": "3a45e7bca6db9fbfea407e22fb24b2dc9a337ec3"
+                "reference": "4379a5189a1313020555fa18b8952a73751f1453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/3a45e7bca6db9fbfea407e22fb24b2dc9a337ec3",
-                "reference": "3a45e7bca6db9fbfea407e22fb24b2dc9a337ec3",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/4379a5189a1313020555fa18b8952a73751f1453",
+                "reference": "4379a5189a1313020555fa18b8952a73751f1453",
                 "shasum": ""
             },
             "require": {
@@ -899,7 +899,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-08-20 07:57:36"
+            "time": "2014-08-25 17:14:37"
         },
         {
             "name": "famelo/messaging",
