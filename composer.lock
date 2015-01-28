@@ -867,12 +867,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.DoctrineExtensions.git",
-                "reference": "8e4de6170d62b810b4c6484ab8f375e943beaacf"
+                "reference": "d6bddd6261bf7bfc2af8e36dfe44bb05b658779c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.DoctrineExtensions/zipball/8e4de6170d62b810b4c6484ab8f375e943beaacf",
-                "reference": "8e4de6170d62b810b4c6484ab8f375e943beaacf",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.DoctrineExtensions/zipball/d6bddd6261bf7bfc2af8e36dfe44bb05b658779c",
+                "reference": "d6bddd6261bf7bfc2af8e36dfe44bb05b658779c",
                 "shasum": ""
             },
             "require": {
@@ -887,7 +887,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-02-20 21:44:51"
+            "time": "2015-01-28 12:44:54"
         },
         {
             "name": "famelo/harvest",
