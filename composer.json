@@ -1,6 +1,6 @@
 {
-    "name": "typo3/flow-base-distribution",
-    "description" : "TYPO3 Flow Base Distribution",
+    "name": "famelo/distribution-harvest",
+    "description" : "Famelo Harvest Distribution",
     "license": "LGPL-3.0+",
     "config": {
         "vendor-dir": "Packages/Libraries",
@@ -25,9 +25,7 @@
         }
     ],
     "require": {
-        "typo3/flow": "*",
-        "typo3/eel": "@dev",
-        "doctrine/migrations": "@dev",
+        "typo3/flow": "2.3.*",
         "famelo/bootstrap": "*",
         "famelo/common": "*",
         "famelo/harvest": "*",
@@ -37,7 +35,8 @@
         "famelo/saas": "*",
         "fzaninotto/faker": "*",
         "flowpack/Expose": "*",
-        "lusitanian/oauth": "dev-master as 1.0.x-dev"
+        "lusitanian/oauth": "dev-master as 1.0.x-dev",
+        "famelo/doctrineextensions": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",
