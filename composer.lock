@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3cffc590f3787a8ac282aa855346574",
+    "hash": "61351a88e0b384924d45efeba96efb90",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -894,13 +894,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mneuhaus/Famelo.Harvest.git",
-                "reference": "de755ccfa04afe03e4fa51cc9051ca65f5b92dcc"
+                "url": "git@github.com:mneuhaus/Famelo.Harvest.git",
+                "reference": "e2b0ff0a309181477f34001f4e0e0c2c6ea4cf76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/de755ccfa04afe03e4fa51cc9051ca65f5b92dcc",
-                "reference": "de755ccfa04afe03e4fa51cc9051ca65f5b92dcc",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/e2b0ff0a309181477f34001f4e0e0c2c6ea4cf76",
+                "reference": "e2b0ff0a309181477f34001f4e0e0c2c6ea4cf76",
                 "shasum": ""
             },
             "require": {
@@ -913,9 +913,12 @@
                     "Famelo\\Harvest": "Classes"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-12-20 21:38:22"
+            "support": {
+                "source": "https://github.com/mneuhaus/Famelo.Harvest/tree/master",
+                "issues": "https://github.com/mneuhaus/Famelo.Harvest/issues"
+            },
+            "time": "2015-01-28 14:51:38"
         },
         {
             "name": "famelo/messaging",
