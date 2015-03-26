@@ -13,6 +13,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/mneuhaus/Famelo.Harvest.git"
+        },
+        {
+            "type": "vcs",
             "url": "git@github.com:mneuhaus/php-raml-parser.git"
         },
         {
@@ -25,7 +29,7 @@
         }
     ],
     "require": {
-        "typo3/flow": "2.3.*",
+        "typo3/flow": "3.0.*",
         "famelo/bootstrap": "*",
         "famelo/common": "*",
         "famelo/harvest": "*",
@@ -36,7 +40,9 @@
         "fzaninotto/faker": "*",
         "flowpack/Expose": "*",
         "lusitanian/oauth": "dev-master as 1.0.x-dev",
-        "famelo/doctrineextensions": "dev-master"
+        "famelo/doctrineextensions": "dev-master",
+        "typo3/party": "dev-master",
+        "cebe/markdown": "~1.1@dev"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",

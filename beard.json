@@ -5,34 +5,16 @@
     },
     "changes": [
         {
-            "name": "[WIP][FEATURE] Automatically move generated migration to package",
-            "type": "gerrit",
-            "path": "Packages/Framework/TYPO3.Flow",
-            "change_id": "23068"
-        },
-        {
-            "name": "[BUGFIX] Change the CacheManager to automatically detect PSR4 class changes",
-            "type": "gerrit",
-            "path": "Packages/Framework/TYPO3.Flow",
-            "change_id": "30597"
-        },
-        {
             "name": "[FEATURE] Add Support for Interfaces as RelationTarget",
             "type": "gerrit",
             "path": "Packages/Framework/TYPO3.Flow",
             "change_id": "31884"
         },
         {
-            "name": "[FEATURE] Remove Collation from generated Migrations",
+            "name": "[FEATURE] Add a way to clear caches by Path + FilePattern",
             "type": "gerrit",
             "path": "Packages/Framework/TYPO3.Flow",
-            "change_id": "31959"
-        },
-        {
-            "name": "!!![WIP][FEATURE] ControllerInheritence Fallbacks",
-            "type": "gerrit",
-            "path": "Packages/Framework/TYPO3.Fluid",
-            "change_id": "31939"
+            "change_id": "25078"
         }
     ]
 }
