@@ -1,0 +1,63 @@
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+<div class="marker1"></div>
+<div class="marker2"></div>
+
+<table class="table-positions">
+	<thead>
+		<tr>
+			<th class="text-left left">Beschreibung</th>
+			<th>Zeit/Anzahl</th>
+			<th>Einzelpreis</th>
+			<th class="right">Gesamtpreis</th>
+		</tr>
+	</thead>
+	<f:for each="{invoice.positions}" as="position">
+		<tr>
+			<td class="left">{position.description -> f:format.nl2br()}</td>
+			<td class="text-center"><f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{position.quantity}</f:format.number></td>
+			<td class="text-center"><f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{position.unitPrice}</f:format.number> €</td>
+			<td class="text-center right"><f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{position.amount}</f:format.number> €</td>
+		</tr>
+	</f:for>
+</table>
+<table class="table-total">
+	<tr>
+		<td class="text-left left" rowspan="4">
+		    <h3>Vielen Dank für Ihren Auftrag!</h3>
+		    <p>
+		    Wir haben gern für Sie gearbeitet - Josef Kunter
+		    </p>
+
+		    <img src="https://dl.dropboxusercontent.com/u/314491/Unterschrift-Kunter.png" width="160px" />
+		</td>
+		<td class="text-right top" colspan="2">Zwischensumme (netto)</td>
+		<td class="right text-center top">
+			<f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{invoice.netAmount}</f:format.number> €
+		</td>
+	</tr>
+	<f:if condition="{invoice.discount}">
+    	<tr>
+    		<td class="text-right" colspan="2">abzgl. {invoice.discount}% Rabatt</td>
+    		<td class="right text-center">
+    			-<f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{invoice.discountAmount}</f:format.number> €
+    		</td>
+    	</tr>
+	</f:if>
+	<tr>
+		<td class="text-right" colspan="2">zzgl. MwSt. 19,00%</td>
+		<td class="right text-center">
+			<f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{invoice.taxAmount}</f:format.number> €
+		</td>
+	</tr>
+	<tr>
+		<td class="text-right bottom" colspan="2">Gesamtsumme (brutto)</td>
+		<td class="right text-center bottom">
+			<f:format.number decimals="2" decimalSeparator="," thousandsSeparator=".">{invoice.dueAmount}</f:format.number> €
+		</td>
+	</tr>
+</table>
+
+<div class="notes">
+	<f:format.raw>{invoice.notes}</f:format.raw>
+</div>

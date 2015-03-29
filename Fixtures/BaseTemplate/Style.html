@@ -1,0 +1,301 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    position: relative;
+    padding: 0 60px;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 12px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-family: 'Open sans';
+}
+
+h3 {
+    color: #000;
+    font-weight: bold;
+}
+
+.avoid-page-break {
+    page-break-inside: avoid;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+strong {
+    color: @primaryColor;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.background-proof {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    opacity: 0.6;
+}
+
+.marker1 {
+    width: 25px;
+    height: 2px;
+    background: #aaa;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.marker2 {
+    width: 25px;
+    height: 2px;
+    background: #aaa;
+    position: absolute;
+    top: 405px;
+    left: 0;
+}
+
+.body {
+    z-index: 1000;
+}
+
+.logo {
+    float: right;
+    margin-top: -2px;
+}
+
+.header {
+    height: 330px;
+    position: relative;
+}
+
+.header > h1 {
+    margin: 0 0 0 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: 45px;
+    font-size: 55px;
+    letter-spacing: -5px;
+}
+
+.block-address {
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    font-size: 12px;
+    color: #706f6f;
+    width: 360px;
+}
+
+.block-sender {
+    font-size: 8px;
+    color: #706f6f;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.block-sender img {
+   width: 8px;
+   height: 8px;
+    margin: 0 4px -1px 11px;
+}
+
+.block-information {
+    font-size: 11px;
+    position: absolute;
+    top: 206px;
+    right: 0;
+}
+
+.block-information th {
+    font-weight: normal;
+    width: 175px;
+    text-align: left;
+}
+
+.table-positions {
+    margin-left: 25px;
+    font-size: 12px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-positions th {
+    font-size: 11px;
+    background: #706F6F;
+    color: white;
+    font-weight: normal;
+}
+
+.table-positions td,
+.table-positions th {
+    padding: 8px 15px;
+    width: 13%;
+}
+
+.table-positions thead td,
+.table-positions thead th,
+.table-positions tbody td,
+.table-positions tbody th {
+    border-right: 1px solid #9d9d9c;
+}
+
+.table-positions thead td.right,
+.table-positions thead th.right,
+.table-positions tbody td.right,
+.table-positions tbody th.right {
+    border-right: 0;
+}
+
+.table-positions th.right {
+    background: @primaryColor;
+    width: 19%;
+}
+
+.table-positions th.left {
+    width: 50%;
+}
+
+.table-positions  tbody > tr:nth-child(odd) > td  {
+    background-color: #ececec;
+}
+
+.table-total {
+    margin-left: 25px;
+    width: 100%;
+    color: #706f6f;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table-total td {
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.table-total img {
+    display: block;
+    width: auto;
+    max-height: 40px;
+}
+
+.table-total td.left {
+    border: 3px solid #ececec;
+    border-right: 0;
+    padding: 15px;
+    width: 50%;
+}
+
+.table-total td.left h3{
+    margin: 0;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.table-total td.left p{
+    margin: 0 0 20px;
+    font-size: 11px;
+}
+
+.table-total td.top {
+    border-top: 3px solid #ececec;
+}
+
+.table-total td.bottom {
+    border-bottom: 3px solid #ececec;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.table-total td.right {
+    background: @primaryColor;
+    width: 104px;
+    padding: 10px 14px 10px 13px;
+    color: white;
+}
+
+
+.block-notes {
+    margin-top: 30px;
+    border: 3px solid #ececec;
+    padding: 16px;
+}
+
+.footer {
+    color: #706f6f;
+    font-size: 10px;
+    margin: 0 25px 0;
+}
+
+
+.footer td {
+    padding: 20px 0 0 42px;
+    vertical-align: top;
+}
+
+.footer .left {
+    width: 130px;
+    padding: 20px 0 0 0;
+}
+
+.footer .right {
+    width: 130px;
+    padding: 20px 0 0 0px;
+}
+
+.bottom-line {
+    margin-left: 25px;
+    background: #706f6f;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bottom-line .pager {
+    font-size: 13px;
+    float: right;
+    text-align: center;
+    width: 104px;
+    background: @primaryColor;
+    color: white;
+    border-left: 10px solid white;
+    padding: 5px 15px;
+}
+
+.notes {
+    margin-left: 25px;
+    margin-top: 25px;
+}

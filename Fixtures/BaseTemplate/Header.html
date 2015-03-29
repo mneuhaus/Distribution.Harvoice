@@ -1,0 +1,35 @@
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+<!--<img src="https://dl.dropboxusercontent.com/u/314491/DIN-A4-Wireframe.png" class="background-proof" />-->
+<!--<img src="https://dl.dropboxusercontent.com/u/314491/Template-Famelo.png" class="background-proof" />-->
+<!--<img src="https://dl.dropboxusercontent.com/u/314491/Pfalzmarken.png" class="background-proof" />-->
+
+<div class="header">
+	<img src="{logo}" alt="{company}" width="240px" class="logo"/>
+
+	<h1>Rechnung</h1>
+
+	<div class="block-address">
+	    <div class="block-sender">
+	        <img src="{bulletImage}"/>{company}
+	        <img src="{bulletImage}"/>{street}
+	        <img src="{bulletImage}"/>{zip} {city}
+	    </div>
+		<strong>An {invoice.customer.name}</strong><br />
+		{invoice.customer.details -> f:format.nl2br()}
+	</div>
+
+	<div class="block-information">
+		<table>
+			<tr>
+				<th>Rechnungsnummer</th><td><strong>{invoice.number}</strong></td>
+			</tr>
+			<tr>
+				<th>Rechnungsdatum</th><td>{invoice.issuedAt -> f:format.date(format: 'd.m.Y')}</td>
+			</tr>
+			<tr>
+				<th>Fälligkeit</th><td>{invoice.dueAt -> f:format.date(format: 'd.m.Y')}</td>
+			</tr>
+		</table>
+	</div>
+</div>
