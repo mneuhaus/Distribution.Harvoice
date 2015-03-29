@@ -966,12 +966,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mneuhaus/Famelo.Harvest.git",
-                "reference": "2898ef5175c2ade39446165e85474188574540e5"
+                "reference": "180834b7860a1257993e51a739acffafef426f45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/2898ef5175c2ade39446165e85474188574540e5",
-                "reference": "2898ef5175c2ade39446165e85474188574540e5",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/180834b7860a1257993e51a739acffafef426f45",
+                "reference": "180834b7860a1257993e51a739acffafef426f45",
                 "shasum": ""
             },
             "require": {
@@ -989,7 +989,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Harvest/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Harvest/issues"
             },
-            "time": "2015-03-26 23:26:00"
+            "time": "2015-03-29 18:45:41"
         },
         {
             "name": "famelo/messaging",
@@ -1060,12 +1060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.PDF.git",
-                "reference": "12ca8b9499f71d457aa0256ece9899b031a0d239"
+                "reference": "38afecc80d89093bbad006ab1afcc9960d941330"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/12ca8b9499f71d457aa0256ece9899b031a0d239",
-                "reference": "12ca8b9499f71d457aa0256ece9899b031a0d239",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/38afecc80d89093bbad006ab1afcc9960d941330",
+                "reference": "38afecc80d89093bbad006ab1afcc9960d941330",
                 "shasum": ""
             },
             "require": {
@@ -1083,7 +1083,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Provides a quick and simple way to generate a PDF from a Fluid Template through the MPDF library",
-            "time": "2015-03-26 23:24:57"
+            "time": "2015-03-29 21:21:01"
         },
         {
             "name": "famelo/saas",
@@ -1091,12 +1091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "4fc21fb4970b71ef750ed77e36a63ff1c83ce645"
+                "reference": "83d0e71d89ee734d97132af3ea2e5072ef7fd84d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/4fc21fb4970b71ef750ed77e36a63ff1c83ce645",
-                "reference": "4fc21fb4970b71ef750ed77e36a63ff1c83ce645",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/83d0e71d89ee734d97132af3ea2e5072ef7fd84d",
+                "reference": "83d0e71d89ee734d97132af3ea2e5072ef7fd84d",
                 "shasum": ""
             },
             "require": {
@@ -1119,7 +1119,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Helpers to create a TYPO3 Flow based SAAS App",
-            "time": "2015-03-26 23:23:58"
+            "time": "2015-03-29 18:48:25"
         },
         {
             "name": "flowpack/expose",
