@@ -3054,7 +3054,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Surf.git",
-                "reference": "867900b4f8d24cf33b896bfd5e1b0e93bd1cf5c7"
+                "reference": "502acb73a351a1081797cd58c468c7eb849bd483"
             },
             "require": {
                 "symfony/process": "~2.1",
@@ -3071,7 +3071,7 @@
                 "GPL-3.0+"
             ],
             "description": "TYPO3 Surf is a deployment tool based on Flow and suited for a wide variety of applications",
-            "time": "2015-03-03 11:05:00"
+            "time": "2015-03-11 18:42:58"
         }
     ],
     "aliases": [
