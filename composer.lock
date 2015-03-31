@@ -2366,7 +2366,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Party.git",
-                "reference": "7c455134c3cd7a118d5687a697e4e2fe8e832314"
+                "reference": "50a99d49c3fce2969a35c5aa9ddf3acee5fc5676"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2382,7 +2382,7 @@
                 "LGPL-3.0+"
             ],
             "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
-            "time": "2015-02-26 07:35:38"
+            "time": "2015-03-10 11:48:50"
         },
         {
             "name": "typo3/swiftmailer",
