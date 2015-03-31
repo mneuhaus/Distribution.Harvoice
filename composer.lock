@@ -909,12 +909,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Common.git",
-                "reference": "208972eaa2b85a59c956b3bcb43ff7507b220bee"
+                "reference": "288ace73303a11b084d6348dfa9e8330b6da3d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/208972eaa2b85a59c956b3bcb43ff7507b220bee",
-                "reference": "208972eaa2b85a59c956b3bcb43ff7507b220bee",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/288ace73303a11b084d6348dfa9e8330b6da3d7e",
+                "reference": "288ace73303a11b084d6348dfa9e8330b6da3d7e",
                 "shasum": ""
             },
             "require": {
@@ -930,7 +930,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-03-09 23:48:10"
+            "time": "2015-03-31 20:07:34"
         },
         {
             "name": "famelo/doctrineextensions",
@@ -2418,12 +2418,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Bean.git",
-                "reference": "5ea291c269f80849ee3f9f85569a1883a01c67f2"
+                "reference": "d9770206f216706844fe84b56fc5ba1078d5a674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bean/zipball/5ea291c269f80849ee3f9f85569a1883a01c67f2",
-                "reference": "5ea291c269f80849ee3f9f85569a1883a01c67f2",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bean/zipball/d9770206f216706844fe84b56fc5ba1078d5a674",
+                "reference": "d9770206f216706844fe84b56fc5ba1078d5a674",
                 "shasum": ""
             },
             "require": {
@@ -2441,7 +2441,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Code generation package for TYPO3.Flow",
-            "time": "2014-12-19 20:53:40"
+            "time": "2015-03-31 20:07:34"
         },
         {
             "name": "famelo/string-score",
