@@ -30,7 +30,7 @@
     ],
     "require": {
         "typo3/flow": "3.0.*",
-        "typo3/party": "*",
+        "typo3/party": "dev-master",
         "famelo/bootstrap": "*",
         "famelo/common": "*",
         "famelo/harvest": "*",

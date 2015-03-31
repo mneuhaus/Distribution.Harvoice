@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ee1bc8fa5edea430ea3fbdda41c2c0d8",
+    "hash": "25a86b302c57fddd1f61f2b802193715",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3084,9 +3084,9 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "typo3/party": 20,
         "lusitanian/oauth": 20,
         "famelo/doctrineextensions": 20,
-        "typo3/party": 20,
         "cebe/markdown": 20,
         "typo3/kickstart": 20,
         "typo3/buildessentials": 20
