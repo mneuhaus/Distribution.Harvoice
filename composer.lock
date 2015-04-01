@@ -1032,12 +1032,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.OAuth.git",
-                "reference": "7258a1f0395691ffdda4b718b60994a20436d6fe"
+                "reference": "ab7c5c397f1517acc622545d057c02a894631f6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.OAuth/zipball/7258a1f0395691ffdda4b718b60994a20436d6fe",
-                "reference": "7258a1f0395691ffdda4b718b60994a20436d6fe",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.OAuth/zipball/ab7c5c397f1517acc622545d057c02a894631f6f",
+                "reference": "ab7c5c397f1517acc622545d057c02a894631f6f",
                 "shasum": ""
             },
             "require": {
@@ -1052,7 +1052,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2015-03-26 23:24:25"
+            "time": "2015-04-01 23:28:20"
         },
         {
             "name": "famelo/pdf",
@@ -1091,12 +1091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "83d0e71d89ee734d97132af3ea2e5072ef7fd84d"
+                "reference": "e0aadec83134db5e3181489dda220ed0f8ada7f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/83d0e71d89ee734d97132af3ea2e5072ef7fd84d",
-                "reference": "83d0e71d89ee734d97132af3ea2e5072ef7fd84d",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/e0aadec83134db5e3181489dda220ed0f8ada7f5",
+                "reference": "e0aadec83134db5e3181489dda220ed0f8ada7f5",
                 "shasum": ""
             },
             "require": {
@@ -1119,7 +1119,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Helpers to create a TYPO3 Flow based SAAS App",
-            "time": "2015-03-29 18:48:25"
+            "time": "2015-04-01 23:29:20"
         },
         {
             "name": "flowpack/expose",
@@ -2483,12 +2483,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Surf.SharedHosting.git",
-                "reference": "c89cd6cf9d8d487f7643cada21ef7a6cb0789b6b"
+                "reference": "e5acba2cfc3ba77779ed5957b688705132b1f2f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Surf.SharedHosting/zipball/c89cd6cf9d8d487f7643cada21ef7a6cb0789b6b",
-                "reference": "c89cd6cf9d8d487f7643cada21ef7a6cb0789b6b",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Surf.SharedHosting/zipball/e5acba2cfc3ba77779ed5957b688705132b1f2f3",
+                "reference": "e5acba2cfc3ba77779ed5957b688705132b1f2f3",
                 "shasum": ""
             },
             "require": {
@@ -2501,7 +2501,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-08-22 22:16:09"
+            "time": "2015-03-10 07:46:18"
         },
         {
             "name": "mikey179/vfsStream",
