@@ -966,12 +966,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mneuhaus/Famelo.Harvest.git",
-                "reference": "9478b8b468c033d197802176fa20518bd37c0b8b"
+                "reference": "0e3c7a292c3078b584657e5dc47821486f83f287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/9478b8b468c033d197802176fa20518bd37c0b8b",
-                "reference": "9478b8b468c033d197802176fa20518bd37c0b8b",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/0e3c7a292c3078b584657e5dc47821486f83f287",
+                "reference": "0e3c7a292c3078b584657e5dc47821486f83f287",
                 "shasum": ""
             },
             "require": {
@@ -989,7 +989,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Harvest/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Harvest/issues"
             },
-            "time": "2015-04-01 11:27:56"
+            "time": "2015-04-04 19:30:48"
         },
         {
             "name": "famelo/messaging",
@@ -2951,6 +2951,58 @@
                 "xunit"
             ],
             "time": "2014-02-16 12:43:56"
+        },
+        {
+            "name": "raven/raven",
+            "version": "0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getsentry/raven-php.git",
+                "reference": "2b651d779cdbac8b6456b3b0f06c8c77e43f79dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getsentry/raven-php/zipball/2b651d779cdbac8b6456b3b0f06c8c77e43f79dd",
+                "reference": "2b651d779cdbac8b6456b3b0f06c8c77e43f79dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "bin/raven"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Raven_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "David Cramer",
+                    "email": "dcramer@gmail.com"
+                }
+            ],
+            "description": "A PHP client for Sentry (http://getsentry.com)",
+            "homepage": "http://getsentry.com",
+            "keywords": [
+                "log",
+                "logging"
+            ],
+            "time": "2015-03-24 23:17:13"
         },
         {
             "name": "symfony/process",
