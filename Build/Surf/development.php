@@ -5,10 +5,11 @@ use \TYPO3\Surf\Domain\Model\SimpleWorkflow;
 
 $application = new \Famelo\Surf\SharedHosting\Application\Flow();
 $application->setOption('repositoryUrl', 'https://mneuhaus@github.com/mneuhaus/Distribution.Harvoice.git');
-$application->setDeploymentPath('/html/staging');
+$application->setDeploymentPath('/html/development');
 $application->setOption('keepReleases', 3);
 
-$application->setOption('defaultContext', 'Production');
+$application->setOption('defaultContext', 'Development');
+$application->setContext('Development');
 $application->setOption('composerCommandPath', 'composer');
 $application->setHosting('Mittwald');
 

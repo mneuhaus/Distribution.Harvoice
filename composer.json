@@ -43,7 +43,8 @@
         "lusitanian/oauth": "dev-master as 1.0.x-dev",
         "famelo/doctrineextensions": "dev-master",
         "typo3/party": "dev-master",
-        "cebe/markdown": "~1.1@dev"
+        "cebe/markdown": "~1.1@dev",
+        "rmccue/requests": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "dev-master",

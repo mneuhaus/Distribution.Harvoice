@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25a86b302c57fddd1f61f2b802193715",
+    "hash": "f2b3e97a5ab83377ec57c855b2b0cf1d",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -966,12 +966,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mneuhaus/Famelo.Harvest.git",
-                "reference": "275a2c386272c7f6f2274ccf3996c03c73d1f4a1"
+                "reference": "c542934b200499ffe1eda259aeb689fe854aeb49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/275a2c386272c7f6f2274ccf3996c03c73d1f4a1",
-                "reference": "275a2c386272c7f6f2274ccf3996c03c73d1f4a1",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/c542934b200499ffe1eda259aeb689fe854aeb49",
+                "reference": "c542934b200499ffe1eda259aeb689fe854aeb49",
                 "shasum": ""
             },
             "require": {
@@ -989,7 +989,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Harvest/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Harvest/issues"
             },
-            "time": "2015-04-04 20:38:30"
+            "time": "2015-04-06 22:27:16"
         },
         {
             "name": "famelo/messaging",
@@ -1091,12 +1091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "e0aadec83134db5e3181489dda220ed0f8ada7f5"
+                "reference": "f0f6731d673f9ce14d2316ef9d21e1256796ff7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/e0aadec83134db5e3181489dda220ed0f8ada7f5",
-                "reference": "e0aadec83134db5e3181489dda220ed0f8ada7f5",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/f0f6731d673f9ce14d2316ef9d21e1256796ff7b",
+                "reference": "f0f6731d673f9ce14d2316ef9d21e1256796ff7b",
                 "shasum": ""
             },
             "require": {
@@ -1119,7 +1119,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Helpers to create a TYPO3 Flow based SAAS App",
-            "time": "2015-04-01 23:29:20"
+            "time": "2015-04-05 07:37:46"
         },
         {
             "name": "flowpack/expose",
@@ -1895,6 +1895,56 @@
                 "source": "https://github.com/mneuhaus/PHPoAuthUserData/tree/master"
             },
             "time": "2014-09-21 18:53:59"
+        },
+        {
+            "name": "rmccue/requests",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmccue/Requests.git",
+                "reference": "ea37f1e2e91a2d1e8b0884bc4eb9f3a863e697bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/ea37f1e2e91a2d1e8b0884bc4eb9f3a863e697bf",
+                "reference": "ea37f1e2e91a2d1e8b0884bc4eb9f3a863e697bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "requests/test-server": "dev-master",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Requests": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan McCue",
+                    "homepage": "http://ryanmccue.info"
+                }
+            ],
+            "description": "A HTTP library written in PHP, for human beings.",
+            "homepage": "http://github.com/rmccue/Requests",
+            "keywords": [
+                "curl",
+                "fsockopen",
+                "http",
+                "idna",
+                "ipv6",
+                "iri",
+                "sockets"
+            ],
+            "time": "2014-12-24 02:30:31"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3140,6 +3190,7 @@
         "lusitanian/oauth": 20,
         "famelo/doctrineextensions": 20,
         "cebe/markdown": 20,
+        "rmccue/requests": 20,
         "typo3/kickstart": 20,
         "typo3/buildessentials": 20
     },
