@@ -966,12 +966,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mneuhaus/Famelo.Harvest.git",
-                "reference": "c542934b200499ffe1eda259aeb689fe854aeb49"
+                "reference": "be993514961eb3822c7d374fd4f2761466532dbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/c542934b200499ffe1eda259aeb689fe854aeb49",
-                "reference": "c542934b200499ffe1eda259aeb689fe854aeb49",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Harvest/zipball/be993514961eb3822c7d374fd4f2761466532dbf",
+                "reference": "be993514961eb3822c7d374fd4f2761466532dbf",
                 "shasum": ""
             },
             "require": {
@@ -989,7 +989,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Harvest/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Harvest/issues"
             },
-            "time": "2015-04-06 22:27:16"
+            "time": "2015-04-06 22:33:02"
         },
         {
             "name": "famelo/messaging",
